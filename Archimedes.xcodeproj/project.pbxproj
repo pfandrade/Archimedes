@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D038E06619DDC7A300ABCE67 /* Archimedes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D038E05B19DDC7A200ABCE67 /* Archimedes.framework */; };
-		D09C73FE19DDC8510067EB29 /* Archimedes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09C73F319DDC8500067EB29 /* Archimedes.framework */; };
+		D038E06619DDC7A300ABCE67 /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D038E05B19DDC7A200ABCE67 /* .framework */; };
+		D09C73FE19DDC8510067EB29 /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09C73F319DDC8500067EB29 /* .framework */; };
 		D09C741019DDC9CA0067EB29 /* CGGeometry+MEDConvenienceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D02FAFDC1635E1E9008D42D9 /* CGGeometry+MEDConvenienceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09C741119DDC9CA0067EB29 /* CGGeometry+MEDConvenienceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FAFDD1635E1E9008D42D9 /* CGGeometry+MEDConvenienceAdditions.m */; };
 		D09C741219DDC9CA0067EB29 /* NSValue+MEDGeometryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0626A9B1679506E00E951A5 /* NSValue+MEDGeometryAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +40,7 @@
 		D4D8B81819DF07C20043808D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D8B81419DF07390043808D /* Quick.framework */; };
 		D4D8B81919DF07C60043808D /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D4D8B81419DF07390043808D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4D8B81C19DF07DC0043808D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D8B81A19DF07D40043808D /* Quick.framework */; };
-		D4D8B81D19DF08300043808D /* Archimedes.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D09C73F319DDC8500067EB29 /* Archimedes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4D8B81D19DF08300043808D /* .framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D09C73F319DDC8500067EB29 /* .framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			files = (
 				D4D8B80819DF04E80043808D /* Nimble.framework in Copy Frameworks */,
 				D4D8B81919DF07C60043808D /* Quick.framework in Copy Frameworks */,
-				D4D8B81D19DF08300043808D /* Archimedes.framework in Copy Frameworks */,
+				D4D8B81D19DF08300043808D /* .framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,12 +107,12 @@
 		D038E05319DDC74A00ABCE67 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
 		D038E05419DDC74A00ABCE67 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		D038E05519DDC74A00ABCE67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D038E05B19DDC7A200ABCE67 /* Archimedes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Archimedes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D038E05B19DDC7A200ABCE67 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D038E06519DDC7A200ABCE67 /* Archimedes-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Archimedes-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0626A9B1679506E00E951A5 /* NSValue+MEDGeometryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+MEDGeometryAdditions.h"; sourceTree = "<group>"; };
 		D0626A9C1679506E00E951A5 /* NSValue+MEDGeometryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+MEDGeometryAdditions.m"; sourceTree = "<group>"; };
 		D0626AA0167950D200E951A5 /* MEDNSValueAdditionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEDNSValueAdditionsSpec.m; sourceTree = "<group>"; };
-		D09C73F319DDC8500067EB29 /* Archimedes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Archimedes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09C73F319DDC8500067EB29 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09C73FD19DDC8510067EB29 /* Archimedes-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Archimedes-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09C742F19DDCA940067EB29 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BB439519DDD7B400A8243F /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 			files = (
 				D4D8B80119DEF1C20043808D /* Nimble.framework in Frameworks */,
 				D4D8B81C19DF07DC0043808D /* Quick.framework in Frameworks */,
-				D038E06619DDC7A300ABCE67 /* Archimedes.framework in Frameworks */,
+				D038E06619DDC7A300ABCE67 /* .framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D8B80719DF04E40043808D /* Nimble.framework in Frameworks */,
-				D09C73FE19DDC8510067EB29 /* Archimedes.framework in Frameworks */,
+				D09C73FE19DDC8510067EB29 /* .framework in Frameworks */,
 				D4D8B81819DF07C20043808D /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,9 +176,9 @@
 		D02FAEDA1635DDC0008D42D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D038E05B19DDC7A200ABCE67 /* Archimedes.framework */,
+				D038E05B19DDC7A200ABCE67 /* .framework */,
 				D038E06519DDC7A200ABCE67 /* Archimedes-MacTests.xctest */,
-				D09C73F319DDC8500067EB29 /* Archimedes.framework */,
+				D09C73F319DDC8500067EB29 /* .framework */,
 				D09C73FD19DDC8510067EB29 /* Archimedes-iOSTests.xctest */,
 			);
 			name = Products;
@@ -375,7 +375,7 @@
 			);
 			name = "Archimedes-Mac";
 			productName = Archimedes;
-			productReference = D038E05B19DDC7A200ABCE67 /* Archimedes.framework */;
+			productReference = D038E05B19DDC7A200ABCE67 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D038E06419DDC7A200ABCE67 /* Archimedes-MacTests */ = {
@@ -411,7 +411,7 @@
 			);
 			name = "Archimedes-iOS";
 			productName = Archimedes;
-			productReference = D09C73F319DDC8500067EB29 /* Archimedes.framework */;
+			productReference = D09C73F319DDC8500067EB29 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D09C73FC19DDC8510067EB29 /* Archimedes-iOSTests */ = {
@@ -624,6 +624,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -638,6 +639,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -652,6 +654,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -666,6 +669,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -736,6 +740,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -750,6 +755,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -764,6 +770,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -778,6 +785,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Archimedes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.Archimedes;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

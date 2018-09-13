@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-               BuildableName = "Archimedes.framework"
+               BuildableName = ".framework"
                BlueprintName = "Archimedes-Mac"
                ReferencedContainer = "container:Archimedes.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = "Archimedes.framework"
+            BuildableName = ".framework"
             BlueprintName = "Archimedes-Mac"
             ReferencedContainer = "container:Archimedes.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = "Archimedes.framework"
+            BuildableName = ".framework"
             BlueprintName = "Archimedes-Mac"
             ReferencedContainer = "container:Archimedes.xcodeproj">
          </BuildableReference>
@@ -97,7 +97,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = "Archimedes.framework"
+            BuildableName = ".framework"
             BlueprintName = "Archimedes-Mac"
             ReferencedContainer = "container:Archimedes.xcodeproj">
          </BuildableReference>
