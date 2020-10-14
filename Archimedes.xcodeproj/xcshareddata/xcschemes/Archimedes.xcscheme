@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-               BuildableName = ".framework"
-               BlueprintName = "Archimedes-Mac"
+               BuildableName = "Archimedes.framework"
+               BlueprintName = "Archimedes"
                ReferencedContainer = "container:Archimedes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,6 +41,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
+            BuildableName = "Archimedes.framework"
+            BlueprintName = "Archimedes"
+            ReferencedContainer = "container:Archimedes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -53,17 +62,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = ".framework"
-            BlueprintName = "Archimedes-Mac"
-            ReferencedContainer = "container:Archimedes.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -79,13 +77,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = ".framework"
-            BlueprintName = "Archimedes-Mac"
+            BuildableName = "Archimedes.framework"
+            BlueprintName = "Archimedes"
             ReferencedContainer = "container:Archimedes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Profile"
@@ -97,8 +93,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D038E05A19DDC7A200ABCE67"
-            BuildableName = ".framework"
-            BlueprintName = "Archimedes-Mac"
+            BuildableName = "Archimedes.framework"
+            BlueprintName = "Archimedes"
             ReferencedContainer = "container:Archimedes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
